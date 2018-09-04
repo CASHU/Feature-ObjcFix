@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qCu-Ga-akD">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="cls-vO-Tgj">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="qCu-Ga-akD" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gqa-5K-ZyP">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="1x9-mI-REo" kind="relationship" relationship="rootViewController" id="2fQ-o4-rSv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HOr-Js-HwW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1185" y="232"/>
+        </scene>
+        <!--Initialization View Controller-->
+        <scene sceneID="eTp-uj-gvQ">
+            <objects>
+                <viewController storyboardIdentifier="InitializationViewController" id="1x9-mI-REo" customClass="InitializationViewController" customModule="CASHU" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EI7-fF-R0z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wgf-P5-BVv">
+                                <rect key="frame" x="102.5" y="251.5" width="171" height="165.5"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Gk1-8z-ZZf">
+                                        <rect key="frame" x="-34.5" y="0.0" width="240" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="Pc8-33-Qbh"/>
+                                            <constraint firstAttribute="width" constant="240" id="bWB-36-6Cc"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Initializing, Please wait" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vUW-k3-5dH">
+                                        <rect key="frame" x="0.0" y="92" width="171" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="IGB-if-Mbi">
+                                        <rect key="frame" x="67.5" y="128.5" width="37" height="37"/>
+                                        <color key="color" red="0.11372549019607843" green="0.68627450980392157" blue="0.92549019607843142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="IGB-if-Mbi" firstAttribute="top" secondItem="vUW-k3-5dH" secondAttribute="bottom" constant="16" id="09a-0A-19l"/>
+                                    <constraint firstItem="vUW-k3-5dH" firstAttribute="leading" secondItem="wgf-P5-BVv" secondAttribute="leading" id="8aK-XE-7gy"/>
+                                    <constraint firstItem="IGB-if-Mbi" firstAttribute="centerX" secondItem="wgf-P5-BVv" secondAttribute="centerX" id="Dvp-N4-8jP"/>
+                                    <constraint firstAttribute="trailing" secondItem="vUW-k3-5dH" secondAttribute="trailing" id="IFq-ri-MMQ"/>
+                                    <constraint firstItem="Gk1-8z-ZZf" firstAttribute="centerX" secondItem="wgf-P5-BVv" secondAttribute="centerX" id="Ifu-YL-eSh"/>
+                                    <constraint firstItem="Gk1-8z-ZZf" firstAttribute="top" secondItem="wgf-P5-BVv" secondAttribute="top" id="dqM-VS-kS2"/>
+                                    <constraint firstAttribute="bottom" secondItem="IGB-if-Mbi" secondAttribute="bottom" id="etO-Fu-sjI"/>
+                                    <constraint firstItem="vUW-k3-5dH" firstAttribute="top" secondItem="Gk1-8z-ZZf" secondAttribute="bottom" constant="12" id="u7b-rN-EDC"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3CG-U9-hCg">
+                                <rect key="frame" x="16" y="36" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="IFG-3Y-htk"/>
+                                    <constraint firstAttribute="height" constant="40" id="erG-Ni-Zju"/>
+                                </constraints>
+                                <state key="normal" image="close"/>
+                                <connections>
+                                    <action selector="back:" destination="1x9-mI-REo" eventType="touchUpInside" id="Hda-xq-TnQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3CG-U9-hCg" firstAttribute="leading" secondItem="Ce0-7B-3r0" secondAttribute="leading" constant="16" id="7OP-Am-buD"/>
+                            <constraint firstItem="3CG-U9-hCg" firstAttribute="top" secondItem="Ce0-7B-3r0" secondAttribute="top" constant="16" id="DYq-4R-nCn"/>
+                            <constraint firstItem="wgf-P5-BVv" firstAttribute="centerY" secondItem="EI7-fF-R0z" secondAttribute="centerY" id="Z7e-ST-oWm"/>
+                            <constraint firstItem="wgf-P5-BVv" firstAttribute="centerX" secondItem="EI7-fF-R0z" secondAttribute="centerX" id="gRV-EJ-iOR"/>
+                            <constraint firstItem="wgf-P5-BVv" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ce0-7B-3r0" secondAttribute="leading" constant="16" id="gmx-Ag-TGR"/>
+                            <constraint firstItem="Ce0-7B-3r0" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="wgf-P5-BVv" secondAttribute="trailing" constant="16" id="udL-KU-bWM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ce0-7B-3r0"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="r9H-xU-d4B"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="IGB-if-Mbi" id="xuU-Z4-hkU"/>
+                        <outlet property="messageLabel" destination="vUW-k3-5dH" id="D1r-25-lae"/>
+                        <segue destination="TkO-gN-bCV" kind="show" identifier="goToSignInPage" id="YXT-bn-d2n"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FBX-4G-T9X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-220" y="231.63418290854574"/>
+        </scene>
+        <!--SignInViewController-->
+        <scene sceneID="wu4-ig-aXo">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Identification" referencedIdentifier="SignInViewController" id="TkO-gN-bCV" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QPC-mI-bdJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="746" y="231"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="close" width="32" height="32"/>
+        <image name="logo" width="595" height="197"/>
+    </resources>
+</document>

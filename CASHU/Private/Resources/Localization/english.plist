@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>InitializationInitialMessage</key>
+	<string>Initializing, please wait</string>
+	<key>SignInEmailAddressPlaceHolder</key>
+	<string>Your Email Address / Username</string>
+	<key>SignInEmailAddressTitle</key>
+	<string>Email Address / Username</string>
+	<key>SignInPasswordPlaceHolder</key>
+	<string>Your password</string>
+	<key>SignInPasswordTitle</key>
+	<string>Password</string>
+	<key>SignInTitle</key>
+	<string>Pay with CASHU</string>
+	<key>SignInSubtitle</key>
+	<string>Enter your CASHU details below</string>
+	<key>SignInButton</key>
+	<string>GO TO PAYMENT</string>
+	<key>EmailAddressIsRequired</key>
+	<string>Required</string>
+	<key>PasswordIsRequired</key>
+	<string>Required</string>
+	<key>Error</key>
+	<string>Error</string>
+	<key>Ok</key>
+	<string>Ok</string>
+	<key>SignUpTitle</key>
+	<string>New to CASHU?</string>
+	<key>SignUpButton</key>
+	<string>SIGN UP NOW</string>
+	<key>PaymentTitle</key>
+	<string>Pay with CASHU</string>
+	<key>PaymentSubtitle</key>
+	<string>Welcome back,</string>
+	<key>WalletTitle</key>
+	<string>CASHU Wallet Balance :</string>
+	<key>InsuffecientBalance</key>
+	<string>Insuffecient Balance</string>
+	<key>WalletFund</key>
+	<string>Your CASHU wallet balance is insufficient! please fund your wallet and try again.</string>
+	<key>TransactionDetails</key>
+	<string>Transaction Details</string>
+	<key>Merchant</key>
+	<string>Merchant :</string>
+	<key>PayNow</key>
+	<string>PAY NOW!</string>
+	<key>ReturnTo</key>
+	<string>Return to</string>
+	<key>TotalAmount</key>
+	<string>Total Amount:</string>
+	<key>CashPayments</key>
+	<string>CASH PAYMENTS!</string>
+	<key>CashPaymentsInfo</key>
+	<string>All transactions will be in USD.
+However, you can use CASHU to in other supported currencies as well, and those currencies will be automatically exchanged into USD on CASHU website.</string>
+	<key>PaymentCompleted</key>
+	<string>you have just completed your payment</string>
+	<key>TransactionInfo</key>
+	<string>Your transaction ID for this payment is:</string>
+	<key>AfterTransactionInfo</key>
+	<string>We have sent you a payment confirmation email to your email address registered in your CASHU wallet.</string>
+</dict>
+</plist>

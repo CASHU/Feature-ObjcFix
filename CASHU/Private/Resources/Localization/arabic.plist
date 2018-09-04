@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>InitializationInitialMessage</key>
+	<string>جار البدء ، يرجى الانتظار</string>
+	<key>SignInEmailAddressPlaceHolder</key>
+	<string>عنوان البريد الإلكتروني / اسم المستخدم </string>
+	<key>SignInEmailAddressTitle</key>
+	<string>عنوان البريد الإلكتروني / اسم المستخدم الخاص بك</string>
+	<key>SignInPasswordPlaceHolder</key>
+	<string>كلمة المرور</string>
+	<key>SignInPasswordTitle</key>
+	<string>كلمة المرور الخاصة بك</string>
+	<key>SignInTitle</key>
+	<string>ادفع باستخدام كاش يو</string>
+	<key>SignInSubtitle</key>
+	<string>أدخل تفاصيل كاش يو الخاصة بك أدناه</string>
+	<key>SignInButton</key>
+	<string>اذهب إلى السداد</string>
+	<key>EmailAddressIsRequired</key>
+	<string>مطلوب</string>
+	<key>PasswordIsRequired</key>
+	<string>مطلوب</string>
+	<key>Error</key>
+	<string>خطأ</string>
+	<key>Ok</key>
+	<string>موافق</string>
+	<key>SignUpTitle</key>
+	<string>جديد في كاش يو؟</string>
+	<key>SignUpButton</key>
+	<string>أفتح حساب الأن</string>
+	<key>PaymentTitle</key>
+	<string>ادفع باستخدام كاش يو</string>
+	<key>PaymentSubtitle</key>
+	<string>مرحبا بعودتك،</string>
+	<key>WalletTitle</key>
+	<string>رصيد محفظة كاش يو:</string>
+	<key>InsuffecientBalance</key>
+	<string>الرصيد غير كاف</string>
+	<key>WalletFund</key>
+	<string>رصيدك في محفظة كاش يو غير كاف! يرجى تمويل محفظتك والمحاولة مرة أخرى.</string>
+	<key>TransactionDetails</key>
+	<string>تفاصيل المعاملة</string>
+	<key>Merchant</key>
+	<string>التاجر :</string>
+	<key>PayNow</key>
+	<string>ادفع الآن!</string>
+	<key>ReturnTo</key>
+	<string>الرجوع الى</string>
+	<key>TotalAmount</key>
+	<string>المبلغ الإجمالي:</string>
+	<key>CashPayments</key>
+	<string>المدفوعات النقدية!</string>
+	<key>CashPaymentsInfo</key>
+	<string>ستكون جميع المعاملات بالدولار الأمريكي.
+ومع ذلك ، يمكنك استخدام كاش يو في العملات الأخرى المدعومة أيضًا ، وسيتم تبادل هذه العملات تلقائيًا إلى الدولار الأمريكي على موقع كاش يو الإلكتروني.</string>
+	<key>PaymentCompleted</key>
+	<string>لقد أكملت للتو دفعك</string>
+	<key>TransactionInfo</key>
+	<string>معرف معاملتك لهذا الدفع هو:</string>
+	<key>AfterTransactionInfo</key>
+	<string>لقد أرسلنا إليك رسالة تأكيد عبر البريد الإلكتروني إلى عنوان بريدك الإلكتروني المسجل في محفظة كاش يو الخاصة بك.</string>
+</dict>
+</plist>

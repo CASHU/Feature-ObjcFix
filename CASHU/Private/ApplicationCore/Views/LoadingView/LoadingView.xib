@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LoadingView" customModule="CASHU" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DUF-Ga-Rbx">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sat-tP-JAe">
+                    <rect key="frame" x="157" y="303" width="60" height="60"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="1IC-MM-cwB"/>
+                        <constraint firstAttribute="width" constant="60" id="yl4-1k-1ZI"/>
+                    </constraints>
+                </imageView>
+                <activityIndicatorView opaque="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="0BL-nl-s2O">
+                    <rect key="frame" x="178" y="324" width="20" height="20"/>
+                    <color key="color" red="0.070588235289999995" green="0.48627450979999998" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="DUF-Ga-Rbx" secondAttribute="trailing" id="30I-e9-0ba"/>
+                <constraint firstItem="sat-tP-JAe" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="BDx-7A-bAp"/>
+                <constraint firstItem="sat-tP-JAe" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="GpJ-xr-TZa"/>
+                <constraint firstItem="0BL-nl-s2O" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="J2f-vk-5ti"/>
+                <constraint firstItem="0BL-nl-s2O" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="OsZ-yM-gXA"/>
+                <constraint firstItem="DUF-Ga-Rbx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Qaf-Ex-SEr"/>
+                <constraint firstAttribute="bottom" secondItem="DUF-Ga-Rbx" secondAttribute="bottom" id="cZ3-Re-jsx"/>
+                <constraint firstItem="DUF-Ga-Rbx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="tNm-S0-cxg"/>
+            </constraints>
+            <connections>
+                <outlet property="backgroundImage" destination="DUF-Ga-Rbx" id="JVr-R3-ibX"/>
+                <outlet property="loadingSpinnerBackground" destination="sat-tP-JAe" id="vQs-3c-sf8"/>
+            </connections>
+            <point key="canvasLocation" x="48.5" y="54.5"/>
+        </view>
+    </objects>
+</document>
