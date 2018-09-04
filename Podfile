@@ -6,8 +6,8 @@ target 'CASHU' do
   use_frameworks!
 
   # Pods for CASHU
-  pod 'CCMPopup', :inhibit_warnings => true
-  pod 'SCrypto', :inhibit_warnings => true
+  pod 'CCMPopup',:inhibit_warnings => true
+  pod 'SCrypto', '~> 2.0.0' , :inhibit_warnings => true
 
   target 'CASHUTests' do
     inherit! :search_paths
