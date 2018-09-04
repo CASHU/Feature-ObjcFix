@@ -22,7 +22,7 @@ s.homepage = "https://github.com/CASHU/CASHU-SDK"
 
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = = { :git => "https://github.com/tzaki1/Feature-ObjcFix.git", :branch => "master" , :tag => s.version.to_s }
+s.source = = { :git => "https://github.com/CASHU/Feature-ObjcFix.git", :branch => "master" , :tag => s.version.to_s }
 
 # 7
 s.framework = "UIKit"
