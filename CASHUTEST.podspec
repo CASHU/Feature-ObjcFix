@@ -4,12 +4,12 @@ Pod::Spec.new do |s|
 # 1
 s.platform = :ios
 s.ios.deployment_target = '9.0'
-s.name = "CASHUTEST"
+s.name = "CASHU"
 s.summary = "CASHU SDK allows you to integrate your project with CASHU internal services"
 s.requires_arc = true
 
 # 2
-s.version = "1.0.0"
+s.version = "1.0"
 
 # 3
 s.license = { :type => "MIT"}
