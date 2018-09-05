@@ -28,7 +28,11 @@ public extension Data {
 
 
 internal protocol RawConvertible {
+    #if swift(>=2.2)
     associatedtype RawValue
+    #else
+    typealias RawValue
+    #endif
     var rawValue: RawValue { get }
 }
 
