@@ -133,8 +133,8 @@ class SignInViewController: UIViewController {
     @objc func updateViewScroll(notification: NSNotification){
         let userInfo = notification.userInfo!
 
-        let animationDuration = (userInfo[UIKeyboardAnimationDurationUserInfoKey] as! NSNumber).doubleValue
-        let keyboardEndFrame = (userInfo[UIKeyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
+        let animationDuration = (userInfo[UIResponder.keyboardAnimationDurationUserInfoKey] as! NSNumber).doubleValue
+        let keyboardEndFrame = (userInfo[UIResponder.keyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
         let convertedKeyboardEndFrame = view.convert(keyboardEndFrame, from: view.window)
         keypadHandleViewHeightConstraint.constant = (view.bounds.maxY - (convertedKeyboardEndFrame.minY))
         AnimationsUtility.animateLayoutFor(self.view, duration: Float(animationDuration), delay: 0.0, completionBlock: nil)

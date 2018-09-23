@@ -61,7 +61,7 @@ extension UITextField {
             self.normalBorderColor = bottomBorderColor
         }
 
-        self.contentVerticalAlignment = UIControlContentVerticalAlignment.top
+        self.contentVerticalAlignment = UIControl.ContentVerticalAlignment.top
         let border = CALayer()
         let width = CGFloat(1.0)
         border.borderColor = bottomBorderColor.cgColor
@@ -87,7 +87,7 @@ extension UITextField {
     
     func showErrorMessage(_ errorMessage : String, messageColor : UIColor = errorMessageColor) {
         if errorLabel == nil {
-            self.contentVerticalAlignment = UIControlContentVerticalAlignment.top
+            self.contentVerticalAlignment = UIControl.ContentVerticalAlignment.top
             self.heightConstraint?.constant += errorFrameHeight
             errorLabel = UILabel(frame: CGRect(x:0, y:self.frame.height, width:self.frame.width, height:errorFrameHeight))
             errorLabel?.font = UIFont(name: (self.font?.fontName)!, size: (self.font?.pointSize)! - fontDifferenece)
