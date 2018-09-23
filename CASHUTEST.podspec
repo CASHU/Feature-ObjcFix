@@ -9,7 +9,7 @@ s.summary = "CASHU SDK allows you to integrate your project with CASHU internal 
 s.requires_arc = true
 
 # 2
-s.version = "1.0"
+s.version = "1.1"
 
 # 3
 s.license = { :type => "MIT"}
@@ -37,6 +37,6 @@ s.source_files = "CASHU/**/*.{swift}"
 s.resources = "CASHU/**/*.{png,jpeg,jpg,storyboard,xib,ttf,plist,xcassets}"
 
 #10
-s.swift_version = "4.1"
+s.swift_version = "4.2"
 
 end
