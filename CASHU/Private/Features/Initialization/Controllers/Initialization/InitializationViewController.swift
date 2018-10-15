@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-@objcMembers class InitializationViewController: UIViewController {
+class InitializationViewController: UIViewController {
     
     @IBOutlet weak var activityIndicator : UIActivityIndicatorView!
     @IBOutlet weak var messageLabel : UILabel!

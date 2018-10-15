@@ -8,7 +8,7 @@
 
 import Foundation
 
-@objcMembers class PaymentDataCenter: NSObject {
+class PaymentDataCenter: NSObject {
     
     private var doPaymentURL = "mobileSDK_Services/sdkDoPayment"
     

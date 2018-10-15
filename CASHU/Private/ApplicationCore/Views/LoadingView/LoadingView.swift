@@ -13,7 +13,7 @@ import UIKit
  It uses the window of the application to add the loading screen.
  There is two different types of Loading, You can block the screen and don't allow the user to interact or you can show it without blocking the screen and the user still can interact with the rest of the application and in that case you need to hide it manually.
  */
-@objcMembers class LoadingView: UIView {
+class LoadingView: UIView {
     /**
      Spinner background
      */

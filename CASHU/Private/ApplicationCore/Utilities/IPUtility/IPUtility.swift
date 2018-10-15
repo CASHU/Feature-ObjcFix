@@ -8,7 +8,7 @@
 
 import Foundation
 
-@objcMembers class IPUtility: NSObject {
+class IPUtility: NSObject {
 
     private var IPAddressURL1 = "https://api.ipify.org"
     fileprivate(set) var ipAddress = ""

@@ -8,7 +8,7 @@
 
 import Foundation
 
-@objcMembers class CASHUToken : NSObject {
+class CASHUToken : NSObject {
     private(set) var token = ""
     private(set) var tokenLifeTime = ""
     private(set) var mobLastVersion = ""

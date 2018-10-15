@@ -47,7 +47,7 @@ enum DateFormattingSequence : Int {
  This class provides an easy way to deal with dates in different ways and formats.
  It's a utility class with static methods.
  */
-@objcMembers class DateUtility: NSObject {
+class DateUtility: NSObject {
     /**
      Add number of years to a date.
      

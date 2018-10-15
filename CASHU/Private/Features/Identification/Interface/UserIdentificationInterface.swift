@@ -8,7 +8,7 @@
 
 import Foundation
 
-@objcMembers class UserIdentificationInterface: NSObject {
+class UserIdentificationInterface: NSObject {
     
 //    class func initiateSignInInParent(_ parent : UIViewController, presentingMethod : PresentingMethod){
 //        let storyboard = UIStoryboard(name: "Identification", bundle: Bundle(for: SignInViewController.self))

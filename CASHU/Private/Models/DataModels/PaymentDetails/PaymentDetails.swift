@@ -8,7 +8,7 @@
 
 import Foundation
 
-@objcMembers class PaymentDetails : NSObject {
+class PaymentDetails : NSObject {
     
     private(set) var currency = ""
     private(set) var amount = ""

@@ -28,7 +28,7 @@ public enum Currency {
     case aed
 }
 
-@objcMembers class CASHURouter: NSObject {
+class CASHURouter: NSObject {
     
     class func initiateProductPaymentInParent(_ parent : UIViewController, configurations : CASHUConfigurations){
         CASHUConfigurationsCenter.sharedInstance().cashuConfigurations = configurations

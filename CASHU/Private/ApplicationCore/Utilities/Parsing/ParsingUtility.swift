@@ -12,7 +12,7 @@ import Foundation
  This class provides an easy way to parse the date provided from any response.
  It's a utility class with static methods.
  */
-@objcMembers class ParsingUtility: NSObject {
+class ParsingUtility: NSObject {
     /**
      Parses the raw data as an array of strings.
      

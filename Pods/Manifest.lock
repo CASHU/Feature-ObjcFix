@@ -1,20 +1,20 @@
 PODS:
   - CCMPopup (1.1.0)
-  - SCrypto (2.0.0)
+  - SCrypto (3.0.1)
 
 DEPENDENCIES:
   - CCMPopup
-  - SCrypto (~> 2.0.0)
+  - SCrypto
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - CCMPopup
     - SCrypto
 
 SPEC CHECKSUMS:
   CCMPopup: e41fad5b8a0823c9cddea8eab6d431670c9dabe5
-  SCrypto: 8287dcf6151df38f9bc0efad2ed982c54a96d1b8
+  SCrypto: 10567b754bf793d54ec703cb4d3610c3a41e5aba
 
-PODFILE CHECKSUM: 1a154e7bf24b08b1ad1b22723e8ecb1c42668fee
+PODFILE CHECKSUM: 85ca586ab1c52c306afa87d05ec241ec2c0df64d
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.5.0

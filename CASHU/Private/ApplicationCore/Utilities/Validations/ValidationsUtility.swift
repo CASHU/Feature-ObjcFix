@@ -12,7 +12,7 @@ import Foundation
  This class provides some validations methods to be used across the app.
  It's a utility class with static methods.
  */
-@objcMembers class ValidationsUtility: NSObject {
+class ValidationsUtility: NSObject {
     /**
      Check if the passed object is not null.
      

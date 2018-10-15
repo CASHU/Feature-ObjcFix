@@ -7,73 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03A482F55ABE0641B5115F45662AB73E /* UIViewController+CCMPopupAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE6BD719FB3ECFB891D59C2C2D42232 /* UIViewController+CCMPopupAnimation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0562DED9F26483D82D9E0A5C3338F7E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		0A6DFD8A0ED99DE444AECC5E23ECA517 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		0E9D5EBF4EF65B848E3DAAFC81318858 /* SCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B8FAA8511F446E15A0D6BA486F08DC /* SCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F351250019705D8CBEC12F8A3CA0FE6 /* CCMPopupTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 76685D27C875AFF9299236CF28861300 /* CCMPopupTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		17B5024BE3B487E9FF3AB77ABC9D852C /* CCMPopupTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5342014CFC010394F6C58181720B7E /* CCMPopupTransitioning.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		2CE0D25C446586A3FB553A955141820A /* UIViewController+CCMPopupAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AD0633A19478E4D9FA9DA8E41C440FA /* UIViewController+CCMPopupAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2D7D16E8E8D622E18D890AE07AEB383F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		2E060662832A56C40A1C10BB20B48628 /* SCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AD1DA8B7B67B0313E1AE7B49B8341E /* SCrypto.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		35F763E300B8B9B1F351D8413C224A20 /* CCMPopup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBCA61AEADB663929F2C85E13DE79CD8 /* CCMPopup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45499881B1DDAF39B5DB2E5D45B7DC4E /* FXBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = B1328E3F081D2ECEC9CBF79906281449 /* FXBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60FB7B46286235458BF8BFAE987F0054 /* CCMPopup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5AE18E55A0779954E11BDEA41D3067 /* CCMPopup-dummy.m */; };
-		612390BD123D4D2D3E6CEF36AB4EDD17 /* CCMPopupSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B6FCE0DFB1B92E759EEFB88EFDBF25 /* CCMPopupSegue.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		69540205DAD16A253EA19C82D908AE77 /* Pods-CASHUTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEF31E04B413F6820A9FF5F084304C /* Pods-CASHUTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C8054304398EDED680E17D45CEA3362 /* Pods-CASHU-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBCE04E88AB6605FE647BB281230880 /* Pods-CASHU-dummy.m */; };
-		8126BEB204D5C3B032301B4B83D9701B /* Pods-CASHUTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98664B4DF817243B4830F30C78E7C103 /* Pods-CASHUTests-dummy.m */; };
-		8D64F803B6A1EE7B8C8287331B3071CC /* UIImage+screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2F393D97479ACCC05440BA0407C10 /* UIImage+screenshot.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9927C8AC12A84CF12D1500E878699E49 /* Pods-CASHU-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3A5AFC87A35076B1E866F52FEDE151 /* Pods-CASHU-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F5D9CB48F2A8B1FED1F8EF5BD9D34E4 /* CCMPopupAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 205F0C99D475B8140E97EB3561687E28 /* CCMPopupAnimation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		AAB2C18E93A27F3E817A2216613C2F36 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = E117CC7400311CABC7B636896C91AB91 /* UIImage+ImageEffects.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		B01334236B625E94B0B006A21AD77154 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B880D67C5EC77576D57F3E01E19F64 /* FXBlurView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		B0343D1B50554D96CCB19AA554F50372 /* SCrypto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9712DC5978902F00712B70ACBA28BBE7 /* SCrypto-dummy.m */; };
-		BD88872CD55BEEEEC11C004ADA820851 /* CCMCustomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C77F9766CE7416AFED0A0D2086A255 /* CCMCustomAnimation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C06C3860467F8521097418566A73276C /* CCMCustomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E545067ADD0AF25A765658F6128BCCC /* CCMCustomAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D209A27C051669B13955477C5571650C /* SCrypto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CE18C406C3A7E359A0DA0481E99303D /* SCrypto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D295501B2E643CB9DE3F7DCB407B2377 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		DCF6D22269F9E086378FD00C521AB756 /* UIImage+screenshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEEF5AA5FD956207FB8F352FC34D26F /* UIImage+screenshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DEF52BA66E4E5B25F8AA0E32E0A2E975 /* CCMPopupSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BF898F7572899929063EAF6A951C2E9 /* CCMPopupSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DFB185C1762FE96585D57182392078D0 /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 65860E8BE32FA1D4F971ED8F9A3F3544 /* UIImage+ImageEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1EBD13684B5B61AC5C70F6FFA49163D /* CCMPopupAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B7F99C48E87628EFE46E2D73A5D25C5 /* CCMPopupAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D3C07C5B16ECE3A2360FD9507B76E96 /* SCrypto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9712DC5978902F00712B70ACBA28BBE7 /* SCrypto-dummy.m */; };
+		0D55E73210616F7D76EB448EB40412F3 /* SCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AD1DA8B7B67B0313E1AE7B49B8341E /* SCrypto.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		307560222FF9D9FE4A182CE7CBB0CA39 /* CCMPopupTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5342014CFC010394F6C58181720B7E /* CCMPopupTransitioning.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3D42701E06D91C256FE3F743DEE5229D /* Pods-CASHU-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBCE04E88AB6605FE647BB281230880 /* Pods-CASHU-dummy.m */; };
+		3EB404EB331435BC0180977F7D846139 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = E117CC7400311CABC7B636896C91AB91 /* UIImage+ImageEffects.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3EC949F9642AD0C37806776A81D8C230 /* SCrypto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CE18C406C3A7E359A0DA0481E99303D /* SCrypto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4349BFE2FC0BEDD208470BBF67BE8DD0 /* Pods-CASHU-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3A5AFC87A35076B1E866F52FEDE151 /* Pods-CASHU-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43ACEAF693492E53B580EFEFEEB7461F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		530CA6BF58A1D5E28A6F6EBF3383B6FF /* CCMPopupSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B6FCE0DFB1B92E759EEFB88EFDBF25 /* CCMPopupSegue.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		641AE2FF6259654A0488EBDD9245EE34 /* Pods-CASHUTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98664B4DF817243B4830F30C78E7C103 /* Pods-CASHUTests-dummy.m */; };
+		66C73B437ED4A41CBBB937538F38C978 /* CCMPopupAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B7F99C48E87628EFE46E2D73A5D25C5 /* CCMPopupAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		782D3F4B9605A040B4CF5BF5FC9B134E /* SCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B8FAA8511F446E15A0D6BA486F08DC /* SCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B5EAFD80E32E5AC924CB9B9F1DB4360 /* CCMPopupAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 205F0C99D475B8140E97EB3561687E28 /* CCMPopupAnimation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8BDBC22A73FFBCDB30E3AAFA6B5B5D3F /* Pods-CASHUTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEF31E04B413F6820A9FF5F084304C /* Pods-CASHUTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		906B70A2D98CD387E7FA15032ECB4B55 /* UIImage+screenshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEEF5AA5FD956207FB8F352FC34D26F /* UIImage+screenshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9305F3EC9651E8E766A80C28440F84FD /* UIViewController+CCMPopupAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE6BD719FB3ECFB891D59C2C2D42232 /* UIViewController+CCMPopupAnimation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		947505F198376DED94DAC287A6436F4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9B237989241561F409783B89AA795045 /* CCMCustomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C77F9766CE7416AFED0A0D2086A255 /* CCMCustomAnimation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9D127BCDC29991E533E45EF23E705710 /* CCMCustomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E545067ADD0AF25A765658F6128BCCC /* CCMCustomAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA301F239FA2279E41DA22F6F096CE76 /* FXBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = B1328E3F081D2ECEC9CBF79906281449 /* FXBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC6311290F67B145B7A09E8653807C01 /* UIViewController+CCMPopupAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AD0633A19478E4D9FA9DA8E41C440FA /* UIViewController+CCMPopupAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE2259B22B4018F003FAB055A3CA4235 /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 65860E8BE32FA1D4F971ED8F9A3F3544 /* UIImage+ImageEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2CA6706170BE97BD2F61B60CA5420C6 /* CCMPopupSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BF898F7572899929063EAF6A951C2E9 /* CCMPopupSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB3A03A214E556D547423B5CCF35F163 /* CCMPopup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBCA61AEADB663929F2C85E13DE79CD8 /* CCMPopup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8521D026A83F316E5C5BDA971D67D90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D9D3272D8FD2E4329921E91D94C636C5 /* CCMPopupTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 76685D27C875AFF9299236CF28861300 /* CCMPopupTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E65C2FB294F3522E07D66F30773F8C27 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B880D67C5EC77576D57F3E01E19F64 /* FXBlurView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EEE8506FD8209731E9EEB1372BCC9E86 /* CCMPopup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5AE18E55A0779954E11BDEA41D3067 /* CCMPopup-dummy.m */; };
+		F8A3EDDD20036EB795822B064442F2CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FC60335D13677A7917ED3918675B823C /* UIImage+screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF2F393D97479ACCC05440BA0407C10 /* UIImage+screenshot.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		000E25E768EAEFF25688EE13D51DC48C /* PBXContainerItemProxy */ = {
+		1C129E117F8AC9B35C797BB445C0FA47 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B57398AEB7F98B3499411B1C2AE43A1A;
+			remoteGlobalIDString = 8A56BE6562D9322DE1134D9EC0E2C311;
 			remoteInfo = CCMPopup;
 		};
-		0447156AD63A0632F55D65E655743F90 /* PBXContainerItemProxy */ = {
+		354DF803C41AFB78BCA189AD7DC04BE8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8DC97CE99C93D6B77D6E47C1E43162A1;
-			remoteInfo = SCrypto;
-		};
-		0F6BD38314486C8C1DA0A64384579232 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8DC97CE99C93D6B77D6E47C1E43162A1;
-			remoteInfo = SCrypto;
-		};
-		3AA9284857EAEE2C0D29D5EFD04A7105 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B57398AEB7F98B3499411B1C2AE43A1A;
-			remoteInfo = CCMPopup;
-		};
-		51751EF5F42C7679C130C30D8FF8C803 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4872B4A224140108E7FEF875B172898C;
+			remoteGlobalIDString = 6C9A66443B56BDFBA9EB50E64ED8C1B1;
 			remoteInfo = "Pods-CASHU";
+		};
+		577BD821DB70A7AD504E7ED8E7FB306C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 337B17721E27B9346DA41BB2FAAD8BA0;
+			remoteInfo = SCrypto;
+		};
+		B6BC8F835A912800895C0D05C9C76321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 337B17721E27B9346DA41BB2FAAD8BA0;
+			remoteInfo = SCrypto;
+		};
+		CC60538D6BA6D51483667DCDAF67AA10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A56BE6562D9322DE1134D9EC0E2C311;
+			remoteInfo = CCMPopup;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -90,9 +90,9 @@
 		48C9F82435546B772028F89BFAD47163 /* Pods-CASHU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CASHU.release.xcconfig"; sourceTree = "<group>"; };
 		493C0E6225127C23F103057D8390FCA5 /* CCMPopup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CCMPopup.modulemap; sourceTree = "<group>"; };
 		5038A1974DFC87345784C3C7CC6DC4E5 /* CCMPopup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CCMPopup.framework; path = CCMPopup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5E545067ADD0AF25A765658F6128BCCC /* CCMCustomAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCMCustomAnimation.h; path = CCMPopup/CCMCustomAnimation.h; sourceTree = "<group>"; };
 		65860E8BE32FA1D4F971ED8F9A3F3544 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "CCMPopup/UIImage+ImageEffects/UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		690DBC5ED1CC0E525A338ED0DE9AEE83 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A5E32787F9BC143C8AB70587C89D62C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E72F3874FF9E89E0C4E0325733D2F65 /* Pods_CASHU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CASHU.framework; path = "Pods-CASHU.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,35 +136,35 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5ECB3CD5C17C186DC3585711B4921F0D /* Frameworks */ = {
+		06D13587FEAC0FD7CCD31335F653FCD2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D295501B2E643CB9DE3F7DCB407B2377 /* Foundation.framework in Frameworks */,
+				F8A3EDDD20036EB795822B064442F2CB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		81F0640CF90C3BEC06C5A413A307BD17 /* Frameworks */ = {
+		1B125A43CBDB2E478B257E0B148ED2D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A6DFD8A0ED99DE444AECC5E23ECA517 /* Foundation.framework in Frameworks */,
+				D8521D026A83F316E5C5BDA971D67D90 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0D9A2DDC15AE467920060A0F76CD6B6 /* Frameworks */ = {
+		BC8B85F3534A36E150F3D13B3A77EA02 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D7D16E8E8D622E18D890AE07AEB383F /* Foundation.framework in Frameworks */,
+				43ACEAF693492E53B580EFEFEEB7461F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E69D06BAD885C883094915F96347230A /* Frameworks */ = {
+		D6722CE35345742135B79FA9405CF30D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0562DED9F26483D82D9E0A5C3338F7E3 /* Foundation.framework in Frameworks */,
+				947505F198376DED94DAC287A6436F4D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,14 +220,6 @@
 			);
 			name = SCrypto;
 			path = SCrypto;
-			sourceTree = "<group>";
-		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		686655A07BEE313BED544B6F72ED9D90 /* CCMPopup */ = {
@@ -301,9 +293,17 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		E114649854F671B697FE2CA79FAA0E91 /* Products */ = {
@@ -329,99 +329,57 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0299B9447641ABF3F816889412CCE5BF /* Headers */ = {
+		4BE7F8325A6F97753106B13D12171098 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D209A27C051669B13955477C5571650C /* SCrypto-umbrella.h in Headers */,
-				0E9D5EBF4EF65B848E3DAAFC81318858 /* SCrypto.h in Headers */,
+				3EC949F9642AD0C37806776A81D8C230 /* SCrypto-umbrella.h in Headers */,
+				782D3F4B9605A040B4CF5BF5FC9B134E /* SCrypto.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D065114E9A245F59A6584CD9C6D9959 /* Headers */ = {
+		4E2D6F436C47885000ED7C5343CFD951 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69540205DAD16A253EA19C82D908AE77 /* Pods-CASHUTests-umbrella.h in Headers */,
+				8BDBC22A73FFBCDB30E3AAFA6B5B5D3F /* Pods-CASHUTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D2B3688150156C5513F5F4725075AD0 /* Headers */ = {
+		7F374402F6AC0BDCA35FFC6F835CEFF2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C06C3860467F8521097418566A73276C /* CCMCustomAnimation.h in Headers */,
-				35F763E300B8B9B1F351D8413C224A20 /* CCMPopup-umbrella.h in Headers */,
-				F1EBD13684B5B61AC5C70F6FFA49163D /* CCMPopupAnimation.h in Headers */,
-				DEF52BA66E4E5B25F8AA0E32E0A2E975 /* CCMPopupSegue.h in Headers */,
-				0F351250019705D8CBEC12F8A3CA0FE6 /* CCMPopupTransitioning.h in Headers */,
-				45499881B1DDAF39B5DB2E5D45B7DC4E /* FXBlurView.h in Headers */,
-				DFB185C1762FE96585D57182392078D0 /* UIImage+ImageEffects.h in Headers */,
-				DCF6D22269F9E086378FD00C521AB756 /* UIImage+screenshot.h in Headers */,
-				2CE0D25C446586A3FB553A955141820A /* UIViewController+CCMPopupAnimation.h in Headers */,
+				9D127BCDC29991E533E45EF23E705710 /* CCMCustomAnimation.h in Headers */,
+				CB3A03A214E556D547423B5CCF35F163 /* CCMPopup-umbrella.h in Headers */,
+				66C73B437ED4A41CBBB937538F38C978 /* CCMPopupAnimation.h in Headers */,
+				B2CA6706170BE97BD2F61B60CA5420C6 /* CCMPopupSegue.h in Headers */,
+				D9D3272D8FD2E4329921E91D94C636C5 /* CCMPopupTransitioning.h in Headers */,
+				AA301F239FA2279E41DA22F6F096CE76 /* FXBlurView.h in Headers */,
+				AE2259B22B4018F003FAB055A3CA4235 /* UIImage+ImageEffects.h in Headers */,
+				906B70A2D98CD387E7FA15032ECB4B55 /* UIImage+screenshot.h in Headers */,
+				AC6311290F67B145B7A09E8653807C01 /* UIViewController+CCMPopupAnimation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D63F2BE8B7B357425286CAAE6B9274F7 /* Headers */ = {
+		EEC33125411C3895CE30742B4F2B424D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9927C8AC12A84CF12D1500E878699E49 /* Pods-CASHU-umbrella.h in Headers */,
+				4349BFE2FC0BEDD208470BBF67BE8DD0 /* Pods-CASHU-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4872B4A224140108E7FEF875B172898C /* Pods-CASHU */ = {
+		337B17721E27B9346DA41BB2FAAD8BA0 /* SCrypto */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC5F7BB619D38EBF6D42E98571D1F734 /* Build configuration list for PBXNativeTarget "Pods-CASHU" */;
+			buildConfigurationList = 25948D16AA30F96FCC5CFF7384BEF0F1 /* Build configuration list for PBXNativeTarget "SCrypto" */;
 			buildPhases = (
-				D63F2BE8B7B357425286CAAE6B9274F7 /* Headers */,
-				C1DDC79A0083EFD6043994E67F41953B /* Sources */,
-				E69D06BAD885C883094915F96347230A /* Frameworks */,
-				4BDD94ED25ADF2152A9F41972868353D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DBDC2AE300CACA30EEF138B5A819B1C7 /* PBXTargetDependency */,
-				4C4988A505F12E8DC571A007CFDFE5A5 /* PBXTargetDependency */,
-			);
-			name = "Pods-CASHU";
-			productName = "Pods-CASHU";
-			productReference = 6E72F3874FF9E89E0C4E0325733D2F65 /* Pods_CASHU.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		4BCA0D1B80CB4A56B7878AF6448195C0 /* Pods-CASHUTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0AB612FA79F40168EF61C8FFC144358A /* Build configuration list for PBXNativeTarget "Pods-CASHUTests" */;
-			buildPhases = (
-				8D065114E9A245F59A6584CD9C6D9959 /* Headers */,
-				771CF773FA2DCC391B18E90FC6AD43E9 /* Sources */,
-				81F0640CF90C3BEC06C5A413A307BD17 /* Frameworks */,
-				9E5C1FC61946485B5D8BAD50D5C7E024 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F6869BD78E2F5C7EDF3C681CA2B77918 /* PBXTargetDependency */,
-				C4C259B28354B1C0B08FE90E6F893C2C /* PBXTargetDependency */,
-				AA8CC15ABBB100F47EDF707AA8CF0EB4 /* PBXTargetDependency */,
-			);
-			name = "Pods-CASHUTests";
-			productName = "Pods-CASHUTests";
-			productReference = FD6BD5BE1A3A2B1D876B000A58068336 /* Pods_CASHUTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8DC97CE99C93D6B77D6E47C1E43162A1 /* SCrypto */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F0DA3D3E5CA54110AC4E88DD60335481 /* Build configuration list for PBXNativeTarget "SCrypto" */;
-			buildPhases = (
-				0299B9447641ABF3F816889412CCE5BF /* Headers */,
-				DA8F90212833C7D9895E1D24CF1A94BE /* Sources */,
-				D0D9A2DDC15AE467920060A0F76CD6B6 /* Frameworks */,
-				EFAFD18597CD1F8565CF168E4A445CDE /* Resources */,
+				8B13B53FD2AC7F43172140D6D08F7758 /* Sources */,
+				06D13587FEAC0FD7CCD31335F653FCD2 /* Frameworks */,
+				4BE7F8325A6F97753106B13D12171098 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -432,14 +390,32 @@
 			productReference = F7104969F70328BAC2217029CE5A96C8 /* SCrypto.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B57398AEB7F98B3499411B1C2AE43A1A /* CCMPopup */ = {
+		6C9A66443B56BDFBA9EB50E64ED8C1B1 /* Pods-CASHU */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5FFAC57808D9D046C0E2E55700042613 /* Build configuration list for PBXNativeTarget "CCMPopup" */;
+			buildConfigurationList = 397DED82E85A6798FAFE61739D1DC8E5 /* Build configuration list for PBXNativeTarget "Pods-CASHU" */;
 			buildPhases = (
-				8D2B3688150156C5513F5F4725075AD0 /* Headers */,
-				1A561F2518DBBD7E2108C73489C9AA69 /* Sources */,
-				5ECB3CD5C17C186DC3585711B4921F0D /* Frameworks */,
-				31EE0797BCA5A9D1E01A8E968FAFE391 /* Resources */,
+				15F25B13B82A3D59228F5FB44A73FACB /* Sources */,
+				D6722CE35345742135B79FA9405CF30D /* Frameworks */,
+				EEC33125411C3895CE30742B4F2B424D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D35AF628A8F9B9DB2ACACA2EEE8FF6E /* PBXTargetDependency */,
+				BF73F971C2368E9BA4990B12EC7FCE26 /* PBXTargetDependency */,
+			);
+			name = "Pods-CASHU";
+			productName = "Pods-CASHU";
+			productReference = 6E72F3874FF9E89E0C4E0325733D2F65 /* Pods_CASHU.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8A56BE6562D9322DE1134D9EC0E2C311 /* CCMPopup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2875C72DDDAE9EF65313FCC7BE442580 /* Build configuration list for PBXNativeTarget "CCMPopup" */;
+			buildPhases = (
+				8C9D2972C4330AA1C5836C2CD49B439E /* Sources */,
+				1B125A43CBDB2E478B257E0B148ED2D4 /* Frameworks */,
+				7F374402F6AC0BDCA35FFC6F835CEFF2 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -448,6 +424,26 @@
 			name = CCMPopup;
 			productName = CCMPopup;
 			productReference = 5038A1974DFC87345784C3C7CC6DC4E5 /* CCMPopup.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC8A289C1FE4191D9C2549248F2465B0 /* Pods-CASHUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB8CC28CD254716C88462CB52DDDBA56 /* Build configuration list for PBXNativeTarget "Pods-CASHUTests" */;
+			buildPhases = (
+				00AD669BEE4BC89F24CF0306903F5E54 /* Sources */,
+				BC8B85F3534A36E150F3D13B3A77EA02 /* Frameworks */,
+				4E2D6F436C47885000ED7C5343CFD951 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99FDD3633F1DECD8BBA804DD0555940B /* PBXTargetDependency */,
+				869E7E877426C36083D7921C069CD50F /* PBXTargetDependency */,
+				C975BFF5818D782021926CCE6215E6DD /* PBXTargetDependency */,
+			);
+			name = "Pods-CASHUTests";
+			productName = "Pods-CASHUTests";
+			productReference = FD6BD5BE1A3A2B1D876B000A58068336 /* Pods_CASHUTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -471,126 +467,95 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B57398AEB7F98B3499411B1C2AE43A1A /* CCMPopup */,
-				4872B4A224140108E7FEF875B172898C /* Pods-CASHU */,
-				4BCA0D1B80CB4A56B7878AF6448195C0 /* Pods-CASHUTests */,
-				8DC97CE99C93D6B77D6E47C1E43162A1 /* SCrypto */,
+				8A56BE6562D9322DE1134D9EC0E2C311 /* CCMPopup */,
+				6C9A66443B56BDFBA9EB50E64ED8C1B1 /* Pods-CASHU */,
+				CC8A289C1FE4191D9C2549248F2465B0 /* Pods-CASHUTests */,
+				337B17721E27B9346DA41BB2FAAD8BA0 /* SCrypto */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		31EE0797BCA5A9D1E01A8E968FAFE391 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4BDD94ED25ADF2152A9F41972868353D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9E5C1FC61946485B5D8BAD50D5C7E024 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EFAFD18597CD1F8565CF168E4A445CDE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		1A561F2518DBBD7E2108C73489C9AA69 /* Sources */ = {
+		00AD669BEE4BC89F24CF0306903F5E54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD88872CD55BEEEEC11C004ADA820851 /* CCMCustomAnimation.m in Sources */,
-				60FB7B46286235458BF8BFAE987F0054 /* CCMPopup-dummy.m in Sources */,
-				9F5D9CB48F2A8B1FED1F8EF5BD9D34E4 /* CCMPopupAnimation.m in Sources */,
-				612390BD123D4D2D3E6CEF36AB4EDD17 /* CCMPopupSegue.m in Sources */,
-				17B5024BE3B487E9FF3AB77ABC9D852C /* CCMPopupTransitioning.m in Sources */,
-				B01334236B625E94B0B006A21AD77154 /* FXBlurView.m in Sources */,
-				AAB2C18E93A27F3E817A2216613C2F36 /* UIImage+ImageEffects.m in Sources */,
-				8D64F803B6A1EE7B8C8287331B3071CC /* UIImage+screenshot.m in Sources */,
-				03A482F55ABE0641B5115F45662AB73E /* UIViewController+CCMPopupAnimation.m in Sources */,
+				641AE2FF6259654A0488EBDD9245EE34 /* Pods-CASHUTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		771CF773FA2DCC391B18E90FC6AD43E9 /* Sources */ = {
+		15F25B13B82A3D59228F5FB44A73FACB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8126BEB204D5C3B032301B4B83D9701B /* Pods-CASHUTests-dummy.m in Sources */,
+				3D42701E06D91C256FE3F743DEE5229D /* Pods-CASHU-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1DDC79A0083EFD6043994E67F41953B /* Sources */ = {
+		8B13B53FD2AC7F43172140D6D08F7758 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C8054304398EDED680E17D45CEA3362 /* Pods-CASHU-dummy.m in Sources */,
+				0D3C07C5B16ECE3A2360FD9507B76E96 /* SCrypto-dummy.m in Sources */,
+				0D55E73210616F7D76EB448EB40412F3 /* SCrypto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA8F90212833C7D9895E1D24CF1A94BE /* Sources */ = {
+		8C9D2972C4330AA1C5836C2CD49B439E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0343D1B50554D96CCB19AA554F50372 /* SCrypto-dummy.m in Sources */,
-				2E060662832A56C40A1C10BB20B48628 /* SCrypto.swift in Sources */,
+				9B237989241561F409783B89AA795045 /* CCMCustomAnimation.m in Sources */,
+				EEE8506FD8209731E9EEB1372BCC9E86 /* CCMPopup-dummy.m in Sources */,
+				7B5EAFD80E32E5AC924CB9B9F1DB4360 /* CCMPopupAnimation.m in Sources */,
+				530CA6BF58A1D5E28A6F6EBF3383B6FF /* CCMPopupSegue.m in Sources */,
+				307560222FF9D9FE4A182CE7CBB0CA39 /* CCMPopupTransitioning.m in Sources */,
+				E65C2FB294F3522E07D66F30773F8C27 /* FXBlurView.m in Sources */,
+				3EB404EB331435BC0180977F7D846139 /* UIImage+ImageEffects.m in Sources */,
+				FC60335D13677A7917ED3918675B823C /* UIImage+screenshot.m in Sources */,
+				9305F3EC9651E8E766A80C28440F84FD /* UIViewController+CCMPopupAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4C4988A505F12E8DC571A007CFDFE5A5 /* PBXTargetDependency */ = {
+		0D35AF628A8F9B9DB2ACACA2EEE8FF6E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SCrypto;
-			target = 8DC97CE99C93D6B77D6E47C1E43162A1 /* SCrypto */;
-			targetProxy = 0447156AD63A0632F55D65E655743F90 /* PBXContainerItemProxy */;
+			name = CCMPopup;
+			target = 8A56BE6562D9322DE1134D9EC0E2C311 /* CCMPopup */;
+			targetProxy = 1C129E117F8AC9B35C797BB445C0FA47 /* PBXContainerItemProxy */;
 		};
-		AA8CC15ABBB100F47EDF707AA8CF0EB4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SCrypto;
-			target = 8DC97CE99C93D6B77D6E47C1E43162A1 /* SCrypto */;
-			targetProxy = 0F6BD38314486C8C1DA0A64384579232 /* PBXContainerItemProxy */;
-		};
-		C4C259B28354B1C0B08FE90E6F893C2C /* PBXTargetDependency */ = {
+		869E7E877426C36083D7921C069CD50F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CASHU";
-			target = 4872B4A224140108E7FEF875B172898C /* Pods-CASHU */;
-			targetProxy = 51751EF5F42C7679C130C30D8FF8C803 /* PBXContainerItemProxy */;
+			target = 6C9A66443B56BDFBA9EB50E64ED8C1B1 /* Pods-CASHU */;
+			targetProxy = 354DF803C41AFB78BCA189AD7DC04BE8 /* PBXContainerItemProxy */;
 		};
-		DBDC2AE300CACA30EEF138B5A819B1C7 /* PBXTargetDependency */ = {
+		99FDD3633F1DECD8BBA804DD0555940B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CCMPopup;
-			target = B57398AEB7F98B3499411B1C2AE43A1A /* CCMPopup */;
-			targetProxy = 3AA9284857EAEE2C0D29D5EFD04A7105 /* PBXContainerItemProxy */;
+			target = 8A56BE6562D9322DE1134D9EC0E2C311 /* CCMPopup */;
+			targetProxy = CC60538D6BA6D51483667DCDAF67AA10 /* PBXContainerItemProxy */;
 		};
-		F6869BD78E2F5C7EDF3C681CA2B77918 /* PBXTargetDependency */ = {
+		BF73F971C2368E9BA4990B12EC7FCE26 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = CCMPopup;
-			target = B57398AEB7F98B3499411B1C2AE43A1A /* CCMPopup */;
-			targetProxy = 000E25E768EAEFF25688EE13D51DC48C /* PBXContainerItemProxy */;
+			name = SCrypto;
+			target = 337B17721E27B9346DA41BB2FAAD8BA0 /* SCrypto */;
+			targetProxy = B6BC8F835A912800895C0D05C9C76321 /* PBXContainerItemProxy */;
+		};
+		C975BFF5818D782021926CCE6215E6DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SCrypto;
+			target = 337B17721E27B9346DA41BB2FAAD8BA0 /* SCrypto */;
+			targetProxy = 577BD821DB70A7AD504E7ED8E7FB306C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		217F0A0CD9692266287FF58DFD8FCFDE /* Release */ = {
+		0DEFB10080C59FDC77EF417A3486A6EF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48C9F82435546B772028F89BFAD47163 /* Pods-CASHU.release.xcconfig */;
+			baseConfigurationReference = DDB329EBF1901054E9F0ED0A3106ABCA /* Pods-CASHUTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -602,16 +567,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CASHU/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-CASHUTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CASHU/Pods-CASHU.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-CASHUTests/Pods-CASHUTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -619,8 +580,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -628,43 +588,7 @@
 			};
 			name = Release;
 		};
-		22A26F549A7FBD163D496C1DDE7F2DCD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31FE9CBBC9476C776F53CE34C40FB431 /* CCMPopup.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CCMPopup/CCMPopup-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CCMPopup/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CCMPopup/CCMPopup.modulemap";
-				PRODUCT_MODULE_NAME = CCMPopup;
-				PRODUCT_NAME = CCMPopup;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		367B45296B32AD482DC773BADEBD73F8 /* Debug */ = {
+		129B3BB5AF6ED0C2B64BDB3C331B4903 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E08D4C8DF6C420AEAD4A4C96A4CF6159 /* SCrypto.xcconfig */;
 			buildSettings = {
@@ -681,61 +605,23 @@
 				INFOPLIST_FILE = "Target Support Files/SCrypto/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SCrypto/SCrypto.modulemap";
 				PRODUCT_MODULE_NAME = SCrypto;
 				PRODUCT_NAME = SCrypto;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		493BA52616487046B572093378B0B82F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31FE9CBBC9476C776F53CE34C40FB431 /* CCMPopup.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CCMPopup/CCMPopup-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CCMPopup/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CCMPopup/CCMPopup.modulemap";
-				PRODUCT_MODULE_NAME = CCMPopup;
-				PRODUCT_NAME = CCMPopup;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		60DAF49CA7A9F362148D49C3C3123B2A /* Debug */ = {
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -789,8 +675,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -799,7 +684,38 @@
 			};
 			name = Debug;
 		};
-		6152B23B50C712718AC275A8E50B8FC8 /* Release */ = {
+		66CBF56582F31225D56580A02A63B7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31FE9CBBC9476C776F53CE34C40FB431 /* CCMPopup.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCMPopup/CCMPopup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCMPopup/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CCMPopup/CCMPopup.modulemap";
+				PRODUCT_MODULE_NAME = CCMPopup;
+				PRODUCT_NAME = CCMPopup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		82A7B6EB6747F87848829D0262518CA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E08D4C8DF6C420AEAD4A4C96A4CF6159 /* SCrypto.xcconfig */;
 			buildSettings = {
@@ -816,67 +732,22 @@
 				INFOPLIST_FILE = "Target Support Files/SCrypto/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SCrypto/SCrypto.modulemap";
 				PRODUCT_MODULE_NAME = SCrypto;
 				PRODUCT_NAME = SCrypto;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		675D6EC5BC5AEA9D663ACBB520152C72 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E59113CCE2E2C09793899C6395503D23 /* Pods-CASHUTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CASHUTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CASHUTests/Pods-CASHUTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		76180F4E81808AE856BD9432F0DB59BD /* Debug */ = {
+		8B8A43070178C478F15B9B7D68E63DCD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BE7777B2976572ADF638E47A713B39FC /* Pods-CASHU.debug.xcconfig */;
 			buildSettings = {
@@ -893,11 +764,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-CASHU/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CASHU/Pods-CASHU.modulemap";
 				OTHER_LDFLAGS = "";
@@ -915,9 +782,9 @@
 			};
 			name = Debug;
 		};
-		B1E854703667171F001E403CF8EF5CBF /* Release */ = {
+		BE4B6FF72394BE5EAD2993F1A62EAB20 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDB329EBF1901054E9F0ED0A3106ABCA /* Pods-CASHUTests.release.xcconfig */;
+			baseConfigurationReference = E59113CCE2E2C09793899C6395503D23 /* Pods-CASHUTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -932,11 +799,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-CASHUTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CASHUTests/Pods-CASHUTests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -946,8 +809,39 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E271C070E64A1DA628AA6FD22AEC5656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31FE9CBBC9476C776F53CE34C40FB431 /* CCMPopup.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCMPopup/CCMPopup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCMPopup/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CCMPopup/CCMPopup.modulemap";
+				PRODUCT_MODULE_NAME = CCMPopup;
+				PRODUCT_NAME = CCMPopup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -955,7 +849,42 @@
 			};
 			name = Release;
 		};
-		C4EAA84F44D044E108500A81C635F21E /* Release */ = {
+		FBF2B50C8DDEDFE216CBB94971B95758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48C9F82435546B772028F89BFAD47163 /* Pods-CASHU.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CASHU/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CASHU/Pods-CASHU.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1007,7 +936,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
@@ -1017,11 +945,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0AB612FA79F40168EF61C8FFC144358A /* Build configuration list for PBXNativeTarget "Pods-CASHUTests" */ = {
+		25948D16AA30F96FCC5CFF7384BEF0F1 /* Build configuration list for PBXNativeTarget "SCrypto" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				675D6EC5BC5AEA9D663ACBB520152C72 /* Debug */,
-				B1E854703667171F001E403CF8EF5CBF /* Release */,
+				82A7B6EB6747F87848829D0262518CA7 /* Debug */,
+				129B3BB5AF6ED0C2B64BDB3C331B4903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2875C72DDDAE9EF65313FCC7BE442580 /* Build configuration list for PBXNativeTarget "CCMPopup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66CBF56582F31225D56580A02A63B7B3 /* Debug */,
+				E271C070E64A1DA628AA6FD22AEC5656 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1029,35 +966,26 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				60DAF49CA7A9F362148D49C3C3123B2A /* Debug */,
-				C4EAA84F44D044E108500A81C635F21E /* Release */,
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5FFAC57808D9D046C0E2E55700042613 /* Build configuration list for PBXNativeTarget "CCMPopup" */ = {
+		397DED82E85A6798FAFE61739D1DC8E5 /* Build configuration list for PBXNativeTarget "Pods-CASHU" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				493BA52616487046B572093378B0B82F /* Debug */,
-				22A26F549A7FBD163D496C1DDE7F2DCD /* Release */,
+				8B8A43070178C478F15B9B7D68E63DCD /* Debug */,
+				FBF2B50C8DDEDFE216CBB94971B95758 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EC5F7BB619D38EBF6D42E98571D1F734 /* Build configuration list for PBXNativeTarget "Pods-CASHU" */ = {
+		DB8CC28CD254716C88462CB52DDDBA56 /* Build configuration list for PBXNativeTarget "Pods-CASHUTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				76180F4E81808AE856BD9432F0DB59BD /* Debug */,
-				217F0A0CD9692266287FF58DFD8FCFDE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F0DA3D3E5CA54110AC4E88DD60335481 /* Build configuration list for PBXNativeTarget "SCrypto" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				367B45296B32AD482DC773BADEBD73F8 /* Debug */,
-				6152B23B50C712718AC275A8E50B8FC8 /* Release */,
+				BE4B6FF72394BE5EAD2993F1A62EAB20 /* Debug */,
+				0DEFB10080C59FDC77EF417A3486A6EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -33,7 +33,7 @@ protocol ImageDataProviderDelegate: NSObjectProtocol {
  
  Hint: Please keep the ImageDataProvider object as long as the object is alive. as the delegate is intialized as weak
  */
-@objcMembers class ImageDataProvider: NSObject{
+class ImageDataProvider: NSObject{
     // Delegate to be notified when the loading isDone
     fileprivate weak var delegate: ImageDataProviderDelegate?
     

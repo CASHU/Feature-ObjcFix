@@ -13,7 +13,7 @@ import UIKit
  This class provides an easy way to add constrains to views using code.
  It's a utility class with static methods.
  */
-@objcMembers class ConstraintsUtility: NSObject {
+class ConstraintsUtility: NSObject {
     
     /**
      Add width constraint to a view.
@@ -24,7 +24,7 @@ import UIKit
      
      - returns: Initialized constraint after being added to the view
      */
-    @discardableResult class func addWidthConstraintTo(_ view: UIView, width: Double, relation: NSLayoutConstraint.Relation) -> NSLayoutConstraint {
+    @discardableResult class func addWidthConstraintTo(_ view: UIView, width: Double, relation: NSLayoutRelation) -> NSLayoutConstraint {
         let widthConstraint = NSLayoutConstraint(item: view, attribute: .width, relatedBy: relation, toItem: nil, attribute: .notAnAttribute, multiplier: 1.0, constant: CGFloat(width))
         view.addConstraint(widthConstraint)
         return widthConstraint
@@ -39,7 +39,7 @@ import UIKit
      
      - returns: Initialized constraint after being added to the view
      */
-    @discardableResult class func addHeightConstraintTo(_ view: UIView, height: Double, relation: NSLayoutConstraint.Relation) -> NSLayoutConstraint {
+    @discardableResult class func addHeightConstraintTo(_ view: UIView, height: Double, relation: NSLayoutRelation) -> NSLayoutConstraint {
         let heightConstraint = NSLayoutConstraint(item: view, attribute: .height, relatedBy: relation, toItem: nil, attribute: .notAnAttribute, multiplier: 1.0, constant: CGFloat(height))
         view.addConstraint(heightConstraint)
         return heightConstraint
@@ -57,7 +57,7 @@ import UIKit
      
      - returns: Initialized constraint after being added to the view
      */
-    @discardableResult class func addVerticalAlignmentConstraintTo(superView: UIView, view: UIView, relatedView: UIView, constant: Double, relation: NSLayoutConstraint.Relation) -> NSLayoutConstraint {
+    @discardableResult class func addVerticalAlignmentConstraintTo(superView: UIView, view: UIView, relatedView: UIView, constant: Double, relation: NSLayoutRelation) -> NSLayoutConstraint {
         let verticalAlignmentConstraint = NSLayoutConstraint(item: view, attribute: .centerX, relatedBy: relation, toItem: relatedView, attribute: .centerX, multiplier: 1.0, constant: CGFloat(constant))
         superView.addConstraint(verticalAlignmentConstraint)
         return verticalAlignmentConstraint
@@ -75,7 +75,7 @@ import UIKit
      
      - returns: Initialized constraint after being added to the view
      */
-    @discardableResult class func addHorizontalAlignmentConstraintTo(superView: UIView, view: UIView, relatedView: UIView, constant: Double, relation: NSLayoutConstraint.Relation) -> NSLayoutConstraint {
+    @discardableResult class func addHorizontalAlignmentConstraintTo(superView: UIView, view: UIView, relatedView: UIView, constant: Double, relation: NSLayoutRelation) -> NSLayoutConstraint {
         let verticalAlignmentConstraint = NSLayoutConstraint(item: view, attribute: .centerX, relatedBy: relation, toItem: relatedView, attribute: .centerX, multiplier: 1.0, constant: CGFloat(constant))
         superView.addConstraint(verticalAlignmentConstraint)
         return verticalAlignmentConstraint
@@ -93,7 +93,7 @@ import UIKit
      
      - returns: Initialized constraint after being added to the view
      */
-    @discardableResult class func addTopConstraintTo(superView: UIView, view: UIView, relatedView: UIView, constant: Double, relation: NSLayoutConstraint.Relation) -> NSLayoutConstraint {
+    @discardableResult class func addTopConstraintTo(superView: UIView, view: UIView, relatedView: UIView, constant: Double, relation: NSLayoutRelation) -> NSLayoutConstraint {
         let topConstraint = NSLayoutConstraint(item: view, attribute: .top, relatedBy: relation, toItem: relatedView, attribute: .top, multiplier: 1.0, constant: CGFloat(constant))
         superView.addConstraint(topConstraint)
         return topConstraint
@@ -110,7 +110,7 @@ import UIKit
      
      - returns: Initialized constraint after being added to the view
      */
-    @discardableResult class func addTopConstraintToBottom(superView: UIView, view: UIView, relatedView: UIView, constant: Double, relation: NSLayoutConstraint.Relation) -> NSLayoutConstraint {
+    @discardableResult class func addTopConstraintToBottom(superView: UIView, view: UIView, relatedView: UIView, constant: Double, relation: NSLayoutRelation) -> NSLayoutConstraint {
         let topConstraint = NSLayoutConstraint(item: view, attribute: .top, relatedBy: relation, toItem: relatedView, attribute: .bottom, multiplier: 1.0, constant: CGFloat(constant))
         superView.addConstraint(topConstraint)
         return topConstraint
@@ -127,7 +127,7 @@ import UIKit
      
      - returns: Initialized constraint after being added to the view
      */
-    @discardableResult class func addBottomConstraintTo(superView: UIView, view: UIView, relatedView: UIView, constant: Double, relation: NSLayoutConstraint.Relation) -> NSLayoutConstraint {
+    @discardableResult class func addBottomConstraintTo(superView: UIView, view: UIView, relatedView: UIView, constant: Double, relation: NSLayoutRelation) -> NSLayoutConstraint {
         let bottomConstraint = NSLayoutConstraint(item: view, attribute: .bottom, relatedBy: relation, toItem: relatedView, attribute: .bottom, multiplier: 1.0, constant: CGFloat(constant))
         superView.addConstraint(bottomConstraint)
         return bottomConstraint
@@ -144,7 +144,7 @@ import UIKit
      
      - returns: Initialized constraint after being added to the view
      */
-    @discardableResult class func addLeadingConstraintTo(superView: UIView, view: UIView,  relatedView: UIView, constant: Double, relation: NSLayoutConstraint.Relation) -> NSLayoutConstraint {
+    @discardableResult class func addLeadingConstraintTo(superView: UIView, view: UIView,  relatedView: UIView, constant: Double, relation: NSLayoutRelation) -> NSLayoutConstraint {
         let leadingConstraint = NSLayoutConstraint(item: view, attribute: .leading, relatedBy: relation, toItem: relatedView, attribute: .leading, multiplier: 1.0, constant: CGFloat(constant))
         superView.addConstraint(leadingConstraint)
         return leadingConstraint
@@ -161,7 +161,7 @@ import UIKit
      
      - returns: Initialized constraint after being added to the view
      */
-    @discardableResult class func addTrailingConstraintTo(superView: UIView, view: UIView,  relatedView: UIView, constant: Double, relation: NSLayoutConstraint.Relation) -> NSLayoutConstraint {
+    @discardableResult class func addTrailingConstraintTo(superView: UIView, view: UIView,  relatedView: UIView, constant: Double, relation: NSLayoutRelation) -> NSLayoutConstraint {
         let trailingConstraint = NSLayoutConstraint(item: view, attribute: .trailing, relatedBy: relation, toItem: relatedView, attribute: .trailing, multiplier: 1.0, constant: CGFloat(constant))
         superView.addConstraint(trailingConstraint)
         return trailingConstraint
@@ -176,7 +176,7 @@ import UIKit
      - parameter constant: The constant value for the constraint.
      - parameter relation: The releation of the constraints
      */
-    class func addSurroundingConstraintsTo(superView: UIView, view: UIView, relatedView: UIView, withConstant constant: Double, relation: NSLayoutConstraint.Relation) {
+    class func addSurroundingConstraintsTo(superView: UIView, view: UIView, relatedView: UIView, withConstant constant: Double, relation: NSLayoutRelation) {
         addTopConstraintTo(superView: superView, view: view, relatedView: relatedView, constant: constant, relation: relation)
      
         addBottomConstraintTo(superView: superView, view: view, relatedView: relatedView, constant: constant, relation: relation)

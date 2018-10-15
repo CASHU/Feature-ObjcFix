@@ -52,7 +52,7 @@ protocol ConnectionRequestDelegate: NSObjectProtocol {
  It contains different sets and options for any request.
  It uses the connection manager to handle the request
  */
-@objcMembers class ConnectionRequest: NSObject {
+class ConnectionRequest: NSObject {
     var isUploadRequest : Bool = false
     
     // is the URL complete, we don't need to appened the service url to it
