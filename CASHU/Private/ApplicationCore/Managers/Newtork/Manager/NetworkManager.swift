@@ -14,7 +14,7 @@ import UIKit
  PLEASE use the shared instance to make sure that the application network will be handled by only one static manager.
  You can start listining on network change notifications.
  */
-class NetworkManager: NSObject {
+@objcMembers class NetworkManager: NSObject {
     // Helper class for checking for the network status
     private var internetReachability: Reachability?
 

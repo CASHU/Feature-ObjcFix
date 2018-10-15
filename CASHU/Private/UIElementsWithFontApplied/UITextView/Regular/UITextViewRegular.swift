@@ -12,7 +12,7 @@ import UIKit
  UITextView with the font applied based on the current selected langauge from the localization manager
  Different Languages may have different fonts
  */
-class UITextViewLight: UITextView {
+@objcMembers class UITextViewLight: UITextView {
     override func awakeFromNib() {
         super.awakeFromNib()
         if(LocalizationManager.sharedInstance.getCurrentLanguage() == .english){

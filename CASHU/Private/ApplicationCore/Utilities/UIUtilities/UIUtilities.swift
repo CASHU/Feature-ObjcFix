@@ -15,7 +15,7 @@ import UIKit
  This class provides an easy way to deal with different UI Utilities.
  It's a utility class with static methods.
  */
-class UIUtilities: NSObject {
+@objcMembers class UIUtilities: NSObject {
     
     /**
      Finds the first responder inside a view.

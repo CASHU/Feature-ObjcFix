@@ -12,7 +12,7 @@ import UIKit
  This class provides an easy way to animate views.
  It's a utility class with static methods.
  */
-class AnimationsUtility: NSObject {
+@objcMembers class AnimationsUtility: NSObject {
     
     /**
      Animate layout change for a view.

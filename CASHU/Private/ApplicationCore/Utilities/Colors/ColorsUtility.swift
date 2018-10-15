@@ -13,7 +13,7 @@ import UIKit
  This class provides an easy way to handle different ways for dealing with colors in the application.
  It's a utility class with static methods.
  */
-class ColorsUtility: NSObject {
+@objcMembers class ColorsUtility: NSObject {
     
     /**
      Convert color from hex string format to color format.

@@ -12,7 +12,7 @@ import UIKit
  UITextField with the font applied based on the current selected langauge from the localization manager
  Different Languages may have different fonts
  */
-class UITextFieldRegular: UITextField {
+@objcMembers class UITextFieldRegular: UITextField {
     override func awakeFromNib() {
         super.awakeFromNib()
         if(LocalizationManager.sharedInstance.getCurrentLanguage() == .english){

@@ -8,7 +8,7 @@
 
 import Foundation
 
-class MerchantDetails : NSObject {
+@objcMembers class MerchantDetails : NSObject {
     
     private(set) var merchantReference = ""
     private(set) var clientID = ""

@@ -15,7 +15,7 @@ import UIKit
  The class produced the core requests concept which means if the request is marked as a core request, it won't be deleted or modified until it's completed successfully, Even if there is a network error, The only option that will be available is retry.
  Also the class produced the concept of VIRequest which means that the request should go to the top of the current requests and excuted first
  */
-class ConnectionManager: NSObject {
+@objcMembers class ConnectionManager: NSObject {
     
     // Number of allowed requests that will be excuted parallely
     fileprivate var noOfAllowedDownloadThreads: Int = 0

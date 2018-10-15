@@ -8,7 +8,7 @@
 
 import Foundation
 
-class CASHUFooterResponse : NSObject {
+@objcMembers class CASHUFooterResponse : NSObject {
     private(set) var chkSum = ""
     private(set) var extra1 = ""
     private(set) var extra2 = ""

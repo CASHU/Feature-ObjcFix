@@ -23,7 +23,7 @@ enum Language : String {
  PLEASE use the shared instance to make sure that the application strings will be handled by only one static manager.
  The way it works that you need to add the Langauge key in the Language enum and provide a .plist file with the same keys for a different langauges and name it as the Langauge enum string.
  */
-class LocalizationManager: NSObject {
+@objcMembers class LocalizationManager: NSObject {
     // Currently cached dictionary with the langauge keys and values
     private var dict = [String: String]()
     // The default language is english

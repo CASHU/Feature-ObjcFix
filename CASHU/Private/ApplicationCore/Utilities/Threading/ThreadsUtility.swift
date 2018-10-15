@@ -12,7 +12,7 @@ import Foundation
  This class provides an easy way to deal with threads and delays.
  It's a utility class with static methods.
  */
-class ThreadsUtility: NSObject {
+@objcMembers class ThreadsUtility: NSObject {
     /**
      Execute a block of code after a specific amount of seconds.
      

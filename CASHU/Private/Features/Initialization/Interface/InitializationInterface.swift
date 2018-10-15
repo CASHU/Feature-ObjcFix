@@ -8,7 +8,7 @@
 
 import Foundation
 
-class InitializationInterface: NSObject {
+@objcMembers class InitializationInterface: NSObject {
     
     class func initiateInInParent(_ parent : UIViewController){
         if(CASHUConfigurationsCenter.sharedInstance().cashuConfigurations.presentingMethod == .push){

@@ -8,7 +8,7 @@
 
 import Foundation
 
-class CASHUBodyResponse : NSObject {
+@objcMembers class CASHUBodyResponse : NSObject {
     private(set) var resultCode = ""
     private(set) var resultMessageError = ""
     private(set) var resultMessageAr = ""

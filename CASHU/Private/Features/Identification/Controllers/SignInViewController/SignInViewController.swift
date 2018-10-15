@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class SignInViewController: UIViewController {
+@objcMembers class SignInViewController: UIViewController {
     
     @IBOutlet weak var scrollView : UIScrollView!
     @IBOutlet weak var scrollViewContentView : UIView!

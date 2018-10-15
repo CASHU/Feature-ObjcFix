@@ -7,7 +7,7 @@
 
 import Foundation
 
-class RegexValidatorUtility{
+@objcMembers class RegexValidatorUtility{
     class func isContainingAtLeastOneCharacter(_ text : String) -> Bool{
         do {
             let regex = try NSRegularExpression(pattern: ".*[a-zA-z\\u0621-\\u064A].*")

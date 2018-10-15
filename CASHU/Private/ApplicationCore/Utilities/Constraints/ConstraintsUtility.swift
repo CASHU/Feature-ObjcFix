@@ -13,7 +13,7 @@ import UIKit
  This class provides an easy way to add constrains to views using code.
  It's a utility class with static methods.
  */
-class ConstraintsUtility: NSObject {
+@objcMembers class ConstraintsUtility: NSObject {
     
     /**
      Add width constraint to a view.
