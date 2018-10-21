@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class PaymentDetailsViewController: UIViewController {
+@objcMembers class PaymentDetailsViewController: UIViewController {
     
     @IBOutlet weak var scrollView : UIScrollView!
     @IBOutlet weak var scrollViewContentView : UIView!

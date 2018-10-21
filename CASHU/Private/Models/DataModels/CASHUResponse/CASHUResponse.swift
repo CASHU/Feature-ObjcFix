@@ -8,7 +8,7 @@
 
 import Foundation
 
-class CASHUResponse : NSObject {
+@objcMembers class CASHUResponse : NSObject {
     
     private(set) var cashuHeaderResponse : CASHUHeaderResponse = CASHUHeaderResponse(data: [:])
     private(set) var cashuBodyResponse : CASHUBodyResponse = CASHUBodyResponse(data: [:])

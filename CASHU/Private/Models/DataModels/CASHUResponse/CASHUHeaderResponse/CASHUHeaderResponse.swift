@@ -8,7 +8,7 @@
 
 import Foundation
 
-class CASHUHeaderResponse : NSObject {
+@objcMembers class CASHUHeaderResponse : NSObject {
     private(set) var dateTime = ""
     private(set) var resultCode = ""
     private(set) var resultMessage = ""

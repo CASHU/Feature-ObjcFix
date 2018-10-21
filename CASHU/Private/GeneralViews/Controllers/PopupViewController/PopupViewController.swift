@@ -8,7 +8,7 @@
 import Foundation
 import CCMPopup
 
-class PopupViewController: UIViewController {
+@objcMembers class PopupViewController: UIViewController {
 
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var message: UILabel!

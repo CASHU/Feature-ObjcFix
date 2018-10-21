@@ -12,7 +12,7 @@ import UIKit
  UILabel with the font applied based on the current selected langauge from the localization manager
  Different Languages may have different fonts
  */
-class UILabelBold: UILabel {
+@objcMembers class UILabelBold: UILabel {
     override func awakeFromNib() {
         super.awakeFromNib()
         if(LocalizationManager.sharedInstance.getCurrentLanguage() == .english){

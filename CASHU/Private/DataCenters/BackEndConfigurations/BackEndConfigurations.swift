@@ -15,7 +15,7 @@ enum Server {
     }
 }
 
-class BackEndConfigurations: NSObject {
+@objcMembers class BackEndConfigurations: NSObject {
     private static let testingServiceURL = "https://api.cashu.com/v1.0/rest/"
     private static let testingImagesURL = "https://api.cashu.com/v1.0/rest/"
     private static let testingCASHU_SECRET_KEY = "mW7tMQFu"

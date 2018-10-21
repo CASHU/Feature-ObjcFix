@@ -8,7 +8,7 @@
 
 import Foundation
 
-class AccountInfo : NSObject {
+@objcMembers class AccountInfo : NSObject {
     
     private(set) var name = ""
     private(set) var balanceAmount = ""

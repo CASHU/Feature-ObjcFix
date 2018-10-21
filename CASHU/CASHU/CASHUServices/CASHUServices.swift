@@ -8,7 +8,7 @@
 
 import Foundation
 
-open class CASHUServices: NSObject {
+@objcMembers open class CASHUServices: NSObject {
     
     /**
      Initializing a new payment.

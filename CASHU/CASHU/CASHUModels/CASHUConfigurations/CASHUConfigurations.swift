@@ -8,7 +8,7 @@
 
 import Foundation
 
-open class CASHUConfigurations: NSObject {
+@objcMembers open class CASHUConfigurations: NSObject {
     
     // Client ID provided to your from cashu
     open var clientID = ""
