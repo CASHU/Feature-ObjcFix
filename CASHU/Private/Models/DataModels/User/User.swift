@@ -9,7 +9,7 @@ import Foundation
 
 import Foundation
 
-@objcMembers class User : NSObject {
+class User : NSObject {
     private static let userKey = "LoggedInUserData"
     var status = ""
     

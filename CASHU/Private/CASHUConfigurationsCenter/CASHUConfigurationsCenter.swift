@@ -9,7 +9,7 @@
 import Foundation
 
 
-@objcMembers class CASHUConfigurationsCenter: NSObject {
+class CASHUConfigurationsCenter: NSObject {
     
     var cashuConfigurations : CASHUConfigurations = CASHUConfigurations(){
         didSet{

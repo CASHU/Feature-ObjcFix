@@ -8,7 +8,7 @@
 
 import Foundation
 
-@objcMembers class UserIdentificationDataCenter: NSObject {
+class UserIdentificationDataCenter: NSObject {
     
     private var authenticationURL = "common/authenticate"
     private var initializationURL = "mobileSDK_Services/sdkPaymentInitialize"

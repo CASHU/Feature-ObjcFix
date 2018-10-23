@@ -162,9 +162,9 @@ class AnimationsUtility: NSObject {
     class func animatePushEffectFor(_ view: UIView, withDuration duration: Float) {
         let applicationLoadViewIn = CATransition()
         applicationLoadViewIn.duration = CFTimeInterval(duration)
-        applicationLoadViewIn.type = CATransitionType.push
-        applicationLoadViewIn.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeIn)
-        view.layer.add(applicationLoadViewIn, forKey: CATransitionType.push.rawValue)
+        applicationLoadViewIn.type = kCATransitionPush
+        applicationLoadViewIn.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseIn)
+        view.layer.add(applicationLoadViewIn, forKey: kCATransitionPush)
     }
 
     /**
@@ -194,8 +194,8 @@ class AnimationsUtility: NSObject {
      */
     private class func transationAnimationWith(duration: Double, transationType: String) -> CATransition {
         let animation = CATransition()
-        animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
-        animation.type = CATransitionType(rawValue: transationType)
+        animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+        animation.type = transationType
         animation.duration = duration
         return animation
     }

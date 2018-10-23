@@ -7,7 +7,7 @@
 
 import Foundation
 
-@objcMembers class LoginQuery{
+class LoginQuery{
     var email : String = ""
     var password : String = ""
 }

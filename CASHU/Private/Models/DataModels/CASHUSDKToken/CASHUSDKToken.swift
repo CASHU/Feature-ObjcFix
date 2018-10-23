@@ -8,7 +8,7 @@
 
 import Foundation
 
-@objcMembers class CASHUSDKToken : NSObject {
+class CASHUSDKToken : NSObject {
     
     private(set) var token = ""
     private(set) var tokenExpiryDateString = ""

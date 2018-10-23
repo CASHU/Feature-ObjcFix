@@ -40,7 +40,7 @@ class UIUtilities: NSObject {
      - parameter selector: The method which will be called when the keyboard will show
      */
     class func notifyMeWhenKeyPadWillShow(target: Any, selector: Selector) {
-        NotificationCenter.default.addObserver(target, selector: selector, name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.addObserver(target, selector: selector, name: NSNotification.Name.UIKeyboardWillShow, object: nil)
     }
 
     /**
@@ -50,7 +50,7 @@ class UIUtilities: NSObject {
      - parameter selector: The method which will be called when the keyboard will hide
      */
     class func notifyMeWhenKeyPadWillHide(target: Any, selector: Selector) {
-        NotificationCenter.default.addObserver(target, selector: selector, name: UIResponder.keyboardWillHideNotification , object: nil)
+        NotificationCenter.default.addObserver(target, selector: selector, name: NSNotification.Name.UIKeyboardWillHide, object: nil)
     }
 
     /**
@@ -60,7 +60,7 @@ class UIUtilities: NSObject {
      - parameter selector: The method which will be called when the keyboard will change it's frame
      */
     class func notifyMeWhenKeyPadWillChangeFrame(target: Any, selector: Selector) {
-        NotificationCenter.default.addObserver(target, selector: selector, name: UIResponder.keyboardWillChangeFrameNotification, object: nil)
+        NotificationCenter.default.addObserver(target, selector: selector, name: NSNotification.Name.UIKeyboardWillChangeFrame, object: nil)
     }
     
     /**
@@ -70,7 +70,7 @@ class UIUtilities: NSObject {
      - parameter selector: The method which will be called when the keyboard did change it's frame
      */
     class func notifyMeWhenKeyPadDidChangeFrame(target: Any, selector: Selector) {
-        NotificationCenter.default.addObserver(target, selector: selector, name: UIResponder.keyboardWillChangeFrameNotification , object: nil)
+        NotificationCenter.default.addObserver(target, selector: selector, name: NSNotification.Name.UIKeyboardWillChangeFrame, object: nil)
     }
 
     /**
@@ -187,7 +187,7 @@ class UIUtilities: NSObject {
      - parameter color: The new color for the place holder text
      */
     class func changePlaceHolderTextColorForTextField(_ textField: UITextField, color: UIColor) {
-        textField.attributedPlaceholder = NSAttributedString(string: textField.placeholder!, attributes: [NSAttributedString.Key.foregroundColor: color])
+        textField.attributedPlaceholder = NSAttributedString(string: textField.placeholder!, attributes: [NSAttributedStringKey.foregroundColor: color])
     }
 
     /**
@@ -232,7 +232,7 @@ class UIUtilities: NSObject {
      - parameter numberOfTouchesRequired: The number of touches required to fire the selector
      - parameter direction: The direction of swiping to fire the selector
      */
-    class func addSwipeGestureToView(_ view: UIView, withTarget target: Any, andSelector selector: Selector, andCanCancelTouchesInTheView isCanCancelTouchesInTheView: Bool, andNumberOfTouchesRequired numberOfTouchesRequired: Int, andWith direction: UISwipeGestureRecognizer.Direction) {
+    class func addSwipeGestureToView(_ view: UIView, withTarget target: Any, andSelector selector: Selector, andCanCancelTouchesInTheView isCanCancelTouchesInTheView: Bool, andNumberOfTouchesRequired numberOfTouchesRequired: Int, andWith direction: UISwipeGestureRecognizerDirection) {
         let swipper = UISwipeGestureRecognizer(target: target, action: selector)
         swipper.numberOfTouchesRequired = numberOfTouchesRequired
         swipper.direction = direction
@@ -246,7 +246,7 @@ class UIUtilities: NSObject {
      - parameter view: The view to add the blur on it
      */
     class func addBlurEffectToView(_ view: UIView) {
-        if !UIAccessibility.isReduceTransparencyEnabled {
+        if !UIAccessibilityIsReduceTransparencyEnabled() {
             view.backgroundColor = UIColor.clear
             view.alpha = 1
             let blurEffect = UIBlurEffect(style: .light)
@@ -341,7 +341,7 @@ class UIUtilities: NSObject {
      - parameter right: The right inset
      */
     class func setImageEdgeInsetsForButton(_ button: UIButton, withTop top: CGFloat, andBottom bottom: CGFloat, andLeft left: CGFloat, andRight right: CGFloat) {
-        button.imageEdgeInsets = UIEdgeInsets(top: top, left: left, bottom: bottom, right: right)
+        button.imageEdgeInsets = UIEdgeInsetsMake(top, left, bottom, right)
     }
 
     /**
